@@ -8,7 +8,6 @@ p,h1,h2,h3,h4,ul {
 
 section{
   position: relative;
-  float: left;
   margin: 20px;
   background-color: rgb(34,153,233);
   width: 465px;
