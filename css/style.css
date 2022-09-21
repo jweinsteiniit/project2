@@ -1,0 +1,16 @@
+p,h1,h2,h3,h4,ul {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#resumephoto{
+  float: right;
+}
+
+section{
+  position: relative;
+  margin: 20px;
+  background-color: rgb(34,153,233);
+  width: 465px;
+  border-radius: 20px;
+  padding: 5px;
+}
