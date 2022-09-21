@@ -8,9 +8,23 @@ p,h1,h2,h3,h4,ul {
 
 section{
   position: relative;
+  float: left;
   margin: 20px;
   background-color: rgb(34,153,233);
   width: 465px;
   border-radius: 20px;
-  padding: 5px;
+  padding: 6px;
+}
+
+ul {
+  background-color: rgb(84,165,246);
+  padding: 3px;
+  border-radius: 5px;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+
+#nav{
+  width:60px;
 }
