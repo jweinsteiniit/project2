@@ -1,29 +1,40 @@
+body{
+  background-color: #256D85;
+}
 p,h1,h2,h3,h4,ul {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Jost, sans-serif;
+  color: #DFF6FF;
 }
-
-#resumephoto{
-  float: right;
-}
-
-section{
-  position: relative;
-  margin: 20px;
-  background-color: rgb(34,153,233);
-  width: 465px;
-  border-radius: 20px;
-  padding: 6px;
-}
-
-ul {
-  background-color: rgb(84,165,246);
-  padding: 3px;
-  border-radius: 5px;
-  width: 90%;
-  position: relative;
-  left: 5%;
-}
-
 #nav{
-  width:60px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #06283D;
+  margin:0;
+  padding: 5px;
+  position: fixed;
+  right:0%;
+  top:10%
+  font-size: 20px;
+  border-radius: 5px 0px 0px 5px;
+}
+#mainphoto{
+  border-radius: 5px 0px 0px 5px;
+  position: fixed;
+  right: 0%;
+  top: 13.2%;
+  width: 30%;
+  max-width: 400px;
+}
+#resumebody{
+  position: relative;
+}
+#nav li{
+  padding: 5px;
+}
+#middle{
+  border-bottom: 2px solid #47B5FF;
+}
+a{
+  text-decoration: none;
+  color: #47B5FF;
 }
