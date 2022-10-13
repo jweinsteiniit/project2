@@ -5,17 +5,31 @@ p,h1,h2,h3,h4,ul {
   font-family: Jost, sans-serif;
   color: #DFF6FF;
 }
+h2{
+  font-size: 1.2em
+}
+h1,h3{
+  text-underline-offset: 0.09em;
+  text-decoration: underline;
+  text-align: center;
+  position: relative;
+}
 #nav{
   list-style-type: none;
   text-align: center;
   background-color: #06283D;
   margin:0;
-  padding: 5px;
-  position: fixed;
-  right:0%;
+  padding: 0;
+  position: relative;
+  width: 28em;
+  margin-left: auto;
+  margin-right: auto;
   top:10%
   font-size: 20px;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 0 0 0.5em 0.5em;
+}
+#nav li{
+    display: inline-block;
 }
 #mainphoto{
   border-radius: 5px 0px 0px 5px;
@@ -27,12 +41,16 @@ p,h1,h2,h3,h4,ul {
 }
 #resumebody{
   position: relative;
+  width: 35%;
+  list-style-type: lower-roman;
 }
+
+
 #nav li{
   padding: 5px;
 }
 #middle{
-  border-bottom: 2px solid #47B5FF;
+  border-right: 2px solid #47B5FF;
 }
 a{
   text-decoration: none;
