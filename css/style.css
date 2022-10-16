@@ -92,14 +92,24 @@ a{
   padding: 0.25em;
 }
 #video{
-
+  width: 612px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#video h3{
+  text-decoration: none;
+}
+#algorithms img{
+  width: 5em;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 iframe{
   width: 38em;
   height: 28em;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
 }
 #algorithms{
   width: 50%;
