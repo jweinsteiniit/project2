@@ -70,7 +70,7 @@ li{
 #nav li{
   padding: 0.25em;
 }
-#middle{
+.middle{
   border-right: 0.1em solid #47B5FF;
 }
 a{
